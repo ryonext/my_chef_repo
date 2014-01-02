@@ -1,1 +1,1 @@
-{"run_list":["zsh", "vim"]}
+{"run_list":["zsh", "vim", "td-agent"]}
