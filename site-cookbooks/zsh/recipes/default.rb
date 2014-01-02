@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: nginx
+# Cookbook Name:: zsh
 # Recipe:: default
 #
 # Copyright 2014, YOUR_COMPANY_NAME
@@ -9,3 +9,10 @@
 package "zsh" do
   action :install
 end
+
+#bash "Change to zsh" do
+#  user 'vagrant'
+#  code <<-SCRIPT
+#    chsh -s /bin/zsh
+#  SCRIPT
+#end
