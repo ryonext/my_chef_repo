@@ -1,1 +1,15 @@
-{"run_list":["zsh", "vim", "td-agent"]}
+{
+  "redis": {
+    "install_type": "source",
+    "source": {
+      "version": "2.6.14"
+    },
+    "symlink_binaries": true
+  },
+  "run_list":[
+  "zsh", 
+  "vim", 
+  "td-agent",
+  "redis::server"
+    ]
+}

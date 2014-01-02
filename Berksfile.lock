@@ -5,11 +5,31 @@
       "git": "https://github.com/treasure-data/chef-td-agent.git",
       "ref": "d29d3f78bc2ffe991c63d56cbf8521eda6fdeb35"
     },
+    "redis": {
+      "locked_version": "2.1.1",
+      "git": "https://github.com/miah/chef-redis.git",
+      "ref": "5b7e8585b23dcef0de3ec6cfbb31ad75fc912d8e"
+    },
     "apt": {
       "locked_version": "2.3.0"
     },
     "yum": {
       "locked_version": "2.4.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    },
+    "stunnel": {
+      "locked_version": "2.0.4"
+    },
+    "discovery": {
+      "locked_version": "0.2.2"
     }
   }
 }
