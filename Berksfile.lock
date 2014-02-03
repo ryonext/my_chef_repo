@@ -3,7 +3,7 @@
     "td-agent": {
       "locked_version": "0.0.1",
       "git": "https://github.com/treasure-data/chef-td-agent.git",
-      "ref": "d29d3f78bc2ffe991c63d56cbf8521eda6fdeb35"
+      "ref": "6e308742d76dbd10a9ac0444df8c9082b2ecf18c"
     },
     "redis": {
       "locked_version": "2.1.1",
@@ -11,10 +11,10 @@
       "ref": "5b7e8585b23dcef0de3ec6cfbb31ad75fc912d8e"
     },
     "apt": {
-      "locked_version": "2.3.0"
+      "locked_version": "2.3.4"
     },
     "yum": {
-      "locked_version": "2.4.2"
+      "locked_version": "3.0.6"
     },
     "build-essential": {
       "locked_version": "1.4.2"
